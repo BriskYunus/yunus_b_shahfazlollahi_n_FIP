@@ -39,6 +39,12 @@ html
   margin: 0 auto;
 }
 
+#about img
+{
+  width: 100%;
+  height: auto;
+}
+
 .topnav
 {
   text-align: center;
@@ -53,6 +59,11 @@ html
   padding-bottom: 80px;
   background-color: #679552;
   color: white;
+}
+
+.footer h2
+{
+  color: #fff;
 }
 
 .copyright
@@ -204,6 +215,11 @@ h3
   margin-top: 30px;
 }
 
+#image123 p
+{
+  margin-right: 25px;
+}
+
 button
 {
   background-color: #679552;
@@ -227,8 +243,8 @@ button:hover
 }
 
 .imgContainer:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
   transform: scale(1.2); 
 }
 
@@ -241,12 +257,6 @@ button:hover
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -262,18 +272,16 @@ button:hover
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #85bc6c;
   font-size: 15px;
@@ -284,7 +292,6 @@ button:hover
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #85bc6c;
   font-size: 12px;
@@ -293,7 +300,6 @@ button:hover
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 10px;
@@ -309,7 +315,6 @@ button:hover
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -498,6 +503,7 @@ input[type=submit]:hover {
   padding: 30px;
   max-width: 100%;
   text-align: center;
+  margin-bottom: -200px;
 
 }
 
@@ -510,7 +516,7 @@ input[type=submit]:hover {
 
 .linkImg
 {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -754,6 +760,11 @@ label
     margin-right: 120px;
 }
 
+#about img
+{
+  width: 100%;
+  height: auto;
+}
 
 #social2
 {
@@ -773,9 +784,9 @@ label
 
 .leftButton
 {
-  margin-top: -250px;
+  margin-top: -150px;
   position: relative;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 
 
@@ -900,7 +911,21 @@ label
 
   #top
   {
-    margin-left: 80px;
+    margin-left: 85px;
+  }
+  .slideshow-container {
+    display: none;
+  }
+  .leftButton
+  {
+    margin-right: 300px;
+    margin-top: -250px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .imageSlides {
+    display: none;
   }
 }
 

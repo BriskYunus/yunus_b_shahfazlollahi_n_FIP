@@ -35,7 +35,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
+  setTimeout(showSlides, 6000); // Every 1000 = seconds, for this TRAA we made it last 6000
 }
 
 let mainNavLinks = document.querySelectorAll("nav ul li a");
@@ -89,7 +89,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Added a top button for the user to reach home page with one click
 function topBtn() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
