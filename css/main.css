@@ -911,7 +911,7 @@ label
 
   #top
   {
-    margin-left: 85px;
+    margin-left: 90px;
   }
   .slideshow-container {
     display: none;
@@ -948,4 +948,19 @@ label
 
 #topBtn:hover {
   background-color: #86b567;
+}
+
+.imgContainer5:hover
+{
+  opacity: 0.5;
+}
+
+.imgContainer2:hover
+{
+  opacity: 0.5;
+}
+
+.imgContainer3:hover
+{
+  opacity: 0.5;
 }
